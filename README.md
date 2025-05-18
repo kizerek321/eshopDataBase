@@ -1,12 +1,12 @@
-# 🏋️‍♂️ WK Dzik E-Shop Database System
+# WK Dzik E-Shop Database System
 
-## 📦 Project Overview
+##  Project Overview
 
 This project presents a relational database system designed for **WK Dzik**, an e-commerce platform selling gym accessories, healthy food, and clothing. The goal is to streamline operations for employees by providing a clear and efficient database system for managing products, deliveries, orders, and payments.
 
 ---
 
-## 👥 Users
+##  Users
 
 - **Warehouse Workers** – Check stock, manage deliveries.
 - **Supplier Team** – Oversee incoming supplies and vendors.
@@ -15,7 +15,7 @@ This project presents a relational database system designed for **WK Dzik**, an 
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 - Store and manage data related to:
   - Products and stock levels
@@ -27,7 +27,7 @@ This project presents a relational database system designed for **WK Dzik**, an 
 
 ---
 
-## ✅ Goals
+##  Goals
 
 - Provide a structured and reliable database system.
 - Simplify everyday operations across departments.
@@ -35,7 +35,7 @@ This project presents a relational database system designed for **WK Dzik**, an 
 
 ---
 
-## 📌 Use Scenarios
+##  Use Scenarios
 
 - Search for specific products and check stock.
 - View delivery history from suppliers.
@@ -44,7 +44,7 @@ This project presents a relational database system designed for **WK Dzik**, an 
 
 ---
 
-## ⚠️ Assumptions & Limitations
+## Assumptions & Limitations
 
 - Only one warehouse location is considered.
 - Product prices are fixed (no sales or discounts).
@@ -53,7 +53,7 @@ This project presents a relational database system designed for **WK Dzik**, an 
 
 ---
 
-## 🔍 Sample Queries
+## Sample Queries
 
 - List all products with stock levels below 10 units.
 - Which products had the most deliveries in the last month?
@@ -65,7 +65,7 @@ This project presents a relational database system designed for **WK Dzik**, an 
 
 ---
 
-## 🗂️ Entity Descriptions
+## Entity Descriptions
 
 ### Delivery
 Represents a delivery from a supplier.  
@@ -151,7 +151,7 @@ Approx. 50,000 entries.
 
 ---
 
-## 🔗 Entity Relationships
+## Entity Relationships
 
 - **Delivery ↔ Supplier**: Each delivery is made by one supplier. A supplier can make many deliveries.
 - **DeliveredItem ↔ Product**: Delivered items relate to specific products. A product can appear in many deliveries.
@@ -165,7 +165,7 @@ Approx. 50,000 entries.
 
 ---
 
-## 🧩 Relational Schema
+## Relational Schema
 
 - Delivery (PK: DeliveryID, FK: SupplierID)
 - Supplier (PK: SupplierID)
